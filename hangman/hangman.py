@@ -32,7 +32,6 @@ curr_tries = 0
 used_letters: list[str] = []
 
 word = random.choice(word_list)
-print(word)
 word_hash = ["_" for char in word]
 
 while "_" in word_hash and curr_tries < MAX_TRIES:
