@@ -29,3 +29,6 @@ Output: [8,9,9,9,0,0,0,1]
 The number of nodes in each linked list is in the range [1, 100].
 0 <= Node.val <= 9
 It is guaranteed that the list represents a number that does not have leading zeros.
+
+## Solution
+For each linked list I get the value of each node and store it in a list. Then, after creating both lists, I reverse these lists and convert them to int. This allows me to add these numbers. After getting sum of these numbers, I create another linked list, where each node is a digit of the sum, and return it.
