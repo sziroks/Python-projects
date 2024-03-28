@@ -38,8 +38,8 @@ class LinkedList:
 
 
 llist = LinkedList()
-# llist.append_item(1)
-# llist.append_item(2)
-# llist.append_item(3)
+llist.append_item(1)
+llist.append_item(2)
+llist.append_item(3)
 
 print(llist[2])
