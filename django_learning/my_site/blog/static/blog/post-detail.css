@@ -22,6 +22,8 @@ body {
   #summary h2 {
     color: white;
     font-size: 4.5rem;
+    max-width: 70%;
+    margin: 0rem 18rem 3rem auto;
   }
   
   #summary article {
@@ -64,3 +66,4 @@ body {
   p {
     text-align: center;
   }
+  
