@@ -1,1 +1,0 @@
-Folder for every excercise and project I've done while learning the Django framework
